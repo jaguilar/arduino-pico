@@ -58,6 +58,7 @@ extern unsigned long __lwip_rand(void);
 #define LWIP_NETIF_TX_SINGLE_PBUF   1
 #define DHCP_DOES_ARP_CHECK         0
 #define LWIP_DHCP_DOES_ACD_CHECK    0
+#define LWIP_DNS_SUPPORT_MDNS_QUERIES 1
 
 // See #1285
 #define MEMP_NUM_UDP_PCB            (__LWIP_MEMMULT * 6)
