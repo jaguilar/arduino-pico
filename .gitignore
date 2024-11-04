@@ -1,6 +1,9 @@
 .DS_Store
 system
 tools/dist
+tools/libpico/build-*
+system/arm-none-eabi
+system/riscv32-unknown-elf
 docs/_build
 ota/build
 tools/libpico/build
